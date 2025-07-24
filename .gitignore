@@ -1,0 +1,28 @@
+# Obsidian 配置目录（包含本地设置和可能的敏感信息）
+.obsidian/
+
+# Obsidian 移动应用缓存
+.obsidian_mobile/
+
+# 临时文件和缓存
+*.tmp
+*.swp
+*~
+
+# 操作系统自动生成的文件
+.DS_Store        # macOS
+Thumbs.db        # Windows
+desktop.ini      # Windows
+
+# 可能包含敏感信息的文件
+*.log
+*.log.*
+*.bak
+*.backup
+
+# 如果使用了插件生成的特定缓存目录，可添加以下内容
+# .obsidian/plugins/*/cache/
+# .obsidian/themes/*/assets/
+
+# 如果你使用 Git 管理附件，可注释掉此行；否则建议排除大文件
+# attachments/
